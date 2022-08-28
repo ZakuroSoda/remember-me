@@ -24,10 +24,16 @@
       </h1>
     </div>
     <div class="modal-content">
-      <p>We all love a delicious hotdog, don't we?</p>
-      <p id="label">Here's a Random Number:</p>
-      <p id="number"></p>
+      <p>APA Citation:</p>
+        <em>
+        <input type="text" class="form-control" id="citation" value="Waiting...">
+        </em> 
+        <small>(click to edit)</small>
+        <br><br>
+        <button type="button" id="copybtn" onclick="copy()" class="btn btn-primary">Copy to Clipboard</button>
+      </div>
     </div>
+    <br>
     <script src="popup.js"></script>
   </body>
 </html>
