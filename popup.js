@@ -29,7 +29,7 @@ function copy(){
   const alertCopied = async () => {
     await sleep(1500)
     document.getElementById("copybtn").className = "btn btn-primary"
-    document.getElementById("copybtn").innerHTML = "Copied to Clipboard"
+    document.getElementById("copybtn").innerHTML = "Copy to Clipboard"
   }
   alertCopied();
 }
